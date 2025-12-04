@@ -10,10 +10,9 @@
 
     <?php require_once 'templates/header.php'; ?>
 
-    <main class="min-h-screen">
-        <?php
-            include $_SERVER['DOCUMENT_ROOT'] . '/' . $view;
-        ?>
+    <main class="min-h-screen bg-blue-300">
+        <!-- get the absolute path ------- -->
+        <?php include $_SERVER['DOCUMENT_ROOT'] . '/' . $view; ?>
     </main>
 
     <?php require_once 'footer.php' ?>
